@@ -1,10 +1,20 @@
+event_inherited();
+
+
+state = CHAR_STATES.IDLE;
+facing = FACING.RIGHT;
+use_reaction = USE_REACTIONS.DIALOGUE;
+
 _speed = 4;
-top_left_bound_x = 0;
-top_left_bound_y = 0;
-bot_right_bound_x = room_width - sprite_width;
-bot_right_bound_y = room_height - sprite_height;
-prev_x = x;
-prev_y = y;
-dist_x = 0;
-dist_y = 0;
-dist_moved = 0;
+can_push = false;
+push_force = 1;
+can_use = false;
+use_trigger = noone;
+init_push_ctr = 0;
+usable = true;
+unresolved_push = false;
+_name = "Sammy";
+dialogue = instance_create_layer(0, 0, "Instances", Dialogue);
+dialogue.set_owner(self);
+
+event_user(0); // defines methods

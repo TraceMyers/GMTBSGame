@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sStatic",
+    "path": "sprites/sStatic/sStatic.yy",
+  },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "CollisObj",
+    "path": "objects/CollisObj/CollisObj.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Statics",
-    "path": "folders/Objects/Statics.yy",
+    "path": "folders/Objects/CollisObjs/Statics.yy",
   },
   "resourceVersion": "1.0",
   "name": "Static",

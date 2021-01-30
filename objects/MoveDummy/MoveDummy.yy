@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sMoveDummy",
-    "path": "sprites/sMoveDummy/sMoveDummy.yy",
+    "name": "sCharacter",
+    "path": "sprites/sCharacter/sCharacter.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,12 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"MoveDummy","path":"objects/MoveDummy/MoveDummy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"parent":{"name":"MoveDummy","path":"objects/MoveDummy/MoveDummy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Characters",
-    "path": "folders/Objects/Characters.yy",
+    "path": "folders/Objects/CollisObjs/Kinetics/Characters.yy",
   },
   "resourceVersion": "1.0",
   "name": "MoveDummy",

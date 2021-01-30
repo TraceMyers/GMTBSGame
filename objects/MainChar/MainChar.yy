@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sMainChar",
-    "path": "sprites/sMainChar/sMainChar.yy",
+    "name": "sMainCharIdleFront",
+    "path": "sprites/sMainCharIdleFront/sMainCharIdleFront.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,12 +23,16 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"MainChar","path":"objects/MainChar/MainChar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"MainChar","path":"objects/MainChar/MainChar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"parent":{"name":"MainChar","path":"objects/MainChar/MainChar.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Characters",
-    "path": "folders/Objects/Characters.yy",
+    "path": "folders/Objects/CollisObjs/Kinetics/Characters.yy",
   },
   "resourceVersion": "1.0",
   "name": "MainChar",

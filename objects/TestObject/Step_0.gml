@@ -1,1 +1,0 @@
-test_switch_control_step();

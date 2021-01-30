@@ -1,1 +1,0 @@
-global.room_controller = self;

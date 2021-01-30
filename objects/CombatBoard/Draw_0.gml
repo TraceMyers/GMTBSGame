@@ -1,0 +1,1 @@
+draw_node_graphics();

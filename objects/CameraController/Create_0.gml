@@ -13,12 +13,11 @@ cam_y = 0;
 // other
 follow_speed_factor = 1/7;
 follow_speed_limited = true;
-follow_max_dist = 100;
-magnitude_limit = 40;
+magnitude_limit = 70;
 magnitude_sq_limit = magnitude_limit * magnitude_limit;
 camera_in_range = true;
 camera_on_map_edge = false;
 camera_transitioning = false;
 
-
 global.camera_controller = self;
+event_user(0);
