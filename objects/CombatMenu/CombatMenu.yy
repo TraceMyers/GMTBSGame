@@ -4,7 +4,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Menu",
+    "path": "objects/Menu/Menu.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,

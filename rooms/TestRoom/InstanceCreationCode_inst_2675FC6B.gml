@@ -1,7 +1,8 @@
 add_item("Save");
 add_item("Load");
 add_item("Settings");
-add_item("Exit");
+add_item("Exit Menu");
+add_item("Quit Game");
 set_layout(0);
 set_halign(1);
 set_valign(2);
@@ -12,3 +13,4 @@ set_item_positions();
 global.options_menu = self;
 
 attach_callback(controller_deactivate, 3);
+attach_callback(game_end, 4);

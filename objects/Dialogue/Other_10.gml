@@ -17,9 +17,10 @@ get_next_line = function() {
 		return noone;
 	}
 	var menu = menus[iter];
+	global.main_text.set_text_to_full_width();
 	if (menu != noone) {
 		global.player_controller.activate_menu(menu);
-		global.main_text.set_text_to_ratio(0.85);
+		//global.main_text.set_text_to_ratio(0.85);
 		position_menu_in_main_text(menu);
 	}
 	var line = lines[iter++];

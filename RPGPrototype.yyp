@@ -31,6 +31,7 @@
     {"id":{"name":"sMainCharIdleLeft","path":"sprites/sMainCharIdleLeft/sMainCharIdleLeft.yy",},"order":1,},
     {"id":{"name":"RedToken","path":"objects/RedToken/RedToken.yy",},"order":2,},
     {"id":{"name":"PushQueue","path":"objects/PushQueue/PushQueue.yy",},"order":0,},
+    {"id":{"name":"fntBerlinSans18","path":"fonts/fntBerlinSans18/fntBerlinSans18.yy",},"order":3,},
     {"id":{"name":"Menu","path":"objects/Menu/Menu.yy",},"order":1,},
     {"id":{"name":"Dialogue","path":"objects/Dialogue/Dialogue.yy",},"order":1,},
     {"id":{"name":"MoveQueue","path":"objects/MoveQueue/MoveQueue.yy",},"order":1,},

@@ -87,7 +87,7 @@ set_lines = function(text) {
         if (!last_line) {
             var search_counter = 0;
             for (
-                ; 
+                ; // TODO: wtf is this 6?
                 search_counter < 6 && search_counter < slice_end; 
                 ++search_counter
             ) {
